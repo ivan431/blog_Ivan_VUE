@@ -1,0 +1,63 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif; /* Улучшенный шрифт */
+    background: linear-gradient(to right, #f0f0f0, #e0e0e0); /* Градиентный фон */
+    transition: background 0.5s ease; /* Анимация фона */
+}
+
+/* Заголовок сайта */
+.app-header[data-v-5eddc052] {
+    background: linear-gradient(to bottom, #333, #444); /* Градиентный фон заголовка */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    transition: background 0.3s ease; /* Анимация фона при наведении */
+}
+
+.app-header:hover {
+    background: linear-gradient(to bottom, #555, #666); /* Изменение фона при наведении */
+}
+
+/* Подвал сайта */
+.app-footer[data-v-208c6cf4] {
+    background: linear-gradient(to top, #555, #444);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    transition: background 0.3s ease; /* Анимация фона при наведении */
+}
+
+.app-footer:hover {
+    background: linear-gradient(to top, #777, #666); /* Изменение фона при наведении */
+}
+
+/* Посты */
+.post-item[data-v-06d6a1e9] {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,.2);
+    background: white; /* Белый фон постов */
+    transition: transform 0.3s ease; /* Анимация при наведении */
+}
+
+.post-item:hover {
+    transform: translateY(-5px); /* Смещение при наведении */
+    box-shadow: 0 6px 12px rgba(0, 0, 0,.3); /* Тень при наведении */
+}
+
+/* Заголовки постов */
+.post-item h2[data-v-06d6a1e9] {
+    font-size: 28px;
+    color: #007bff; /* Цвет заголовков */
+    margin-bottom: 10px;
+}
+
+/* Текст постов */
+.post-item p[data-v-06d6a1e9] {
+    color: #333; /* Темный цвет текста */
+    font-size: 18px;
+    line-height: 1.6;
+}

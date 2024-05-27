@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(to right, #ff9966, #ff5e62); /* Плавный градиент фона */
+    font-family: Arial, sans-serif; /* Общие шрифты для текста */
+    color: #ffffff; /* Белый цвет текста для контраста */
+}
+
+.blog-title {
+    text-align: center; /* Центрирование названия блога */
+    font-size: 48px; /* Увеличенный размер шрифта */
+    color: #ffcc00; /* Желтый цвет текста для выделения */
+    text-transform: uppercase; /* Преобразование в верхний регистр */
+    letter-spacing: 2px; /* Расстояние между буквами */
+    transition: color 0.3s ease; /* Эффект плавного изменения цвета при наведении */
+}
+
+.blog-title:hover {
+    color: #ff9900; /* Темнеющаяся подсветка при наведении */
+}
+
+.post-item[data-v-63508974] {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0,.1);
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease; /* Эффект плавного перемещения при наведении */
+}
+
+.post-item h2[data-v-63508974] {
+    font-size: 24px;
+    color: blue;
+}
+
+.post-item p[data-v-63508974] {
+    color: #8a2be2;
+    font-size: 16px;
+}
+
+.comment-group[data-v-63508974] {
+    margin-top: 10px;
+    padding: 10px;
+    border-left: 5px solid #007bff;
+    background-color: #e7e7e7;
+}
+
+.comment-author[data-v-63508974] {
+    font-weight: 700;
+    color: #333;
+}
+
+.comment-content[data-v-63508974] {
+    color: #666;
+}
+
+.post-item[data-v-63508974]:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0,.2);
+    transform: translateY(-5px); /* Перемещение при наведении */
+}
+
+.comment-group[data-v-63508974]:hover {
+    background-color: #dcdcdc;
+}
+
+/* Глобальный стиль для хедера */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Высота хедера */
+    background-color: #333; /* Цвет фона хедера */
+    color: white; /* Цвет текста хедера */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Отступы внутри хедера */
+}
+
+/* Глобальный стиль для футера */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px; /* Высота футера */
+    background-color: #555; /* Цвет фона футера */
+    color: white; /* Цвет текста футера */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px; /* Отступы внутри футера */
+}
+
